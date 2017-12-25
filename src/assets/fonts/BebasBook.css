@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "BebasNeueBook";
+    src: url("BebasBook.eot");
+    src: url("BebasBook.eot?#iefix") format("embedded-opentype"),
+         url("BebasBook.woff2") format("woff2"),
+         url("BebasBook.woff") format("woff"),
+         url("BebasBook.ttf") format("ttf"),
+         url("BebasBook.svg#BebasNeueBook") format("svg");
+    font-style: normal;
+    font-weight: 300;
+}

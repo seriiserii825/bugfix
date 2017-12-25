@@ -1,0 +1,255 @@
+// SCSS variables are information about icon's compiled state, stored under its original file name
+//
+// .icon-home {
+//   width: $icon-home-width;
+// }
+//
+// The large array-like variables contain all information about a single icon
+// $icon-home: x y offset_x offset_y width height total_width total_height image_path;
+//
+// At the bottom of this section, we provide information about the spritesheet itself
+// $spritesheet: width height image $spritesheet-sprites;
+$s-01-map-name: 's-01.map';
+$s-01-map-x: 209px;
+$s-01-map-y: 82px;
+$s-01-map-offset-x: -209px;
+$s-01-map-offset-y: -82px;
+$s-01-map-width: 30px;
+$s-01-map-height: 50px;
+$s-01-map-total-width: 269px;
+$s-01-map-total-height: 253px;
+$s-01-map-image: '../i/sprite.png';
+$s-01-map: (209px, 82px, -209px, -82px, 30px, 50px, 269px, 253px, '../i/sprite.png', 's-01.map', );
+$s-02-photo-name: 's-02.photo';
+$s-02-photo-x: 0px;
+$s-02-photo-y: 223px;
+$s-02-photo-offset-x: 0px;
+$s-02-photo-offset-y: -223px;
+$s-02-photo-width: 45px;
+$s-02-photo-height: 30px;
+$s-02-photo-total-width: 269px;
+$s-02-photo-total-height: 253px;
+$s-02-photo-image: '../i/sprite.png';
+$s-02-photo: (0px, 223px, 0px, -223px, 45px, 30px, 269px, 253px, '../i/sprite.png', 's-02.photo', );
+$s-03-about-name: 's-03.about';
+$s-03-about-x: 165px;
+$s-03-about-y: 174px;
+$s-03-about-offset-x: -165px;
+$s-03-about-offset-y: -174px;
+$s-03-about-width: 21px;
+$s-03-about-height: 20px;
+$s-03-about-total-width: 269px;
+$s-03-about-total-height: 253px;
+$s-03-about-image: '../i/sprite.png';
+$s-03-about: (165px, 174px, -165px, -174px, 21px, 20px, 269px, 253px, '../i/sprite.png', 's-03.about', );
+$s-04-home-name: 's-04.home';
+$s-04-home-x: 206px;
+$s-04-home-y: 174px;
+$s-04-home-offset-x: -206px;
+$s-04-home-offset-y: -174px;
+$s-04-home-width: 20px;
+$s-04-home-height: 20px;
+$s-04-home-total-width: 269px;
+$s-04-home-total-height: 253px;
+$s-04-home-image: '../i/sprite.png';
+$s-04-home: (206px, 174px, -206px, -174px, 20px, 20px, 269px, 253px, '../i/sprite.png', 's-04.home', );
+$s-05-price-name: 's-05.price';
+$s-05-price-x: 100px;
+$s-05-price-y: 223px;
+$s-05-price-offset-x: -100px;
+$s-05-price-offset-y: -223px;
+$s-05-price-width: 12px;
+$s-05-price-height: 18px;
+$s-05-price-total-width: 269px;
+$s-05-price-total-height: 253px;
+$s-05-price-image: '../i/sprite.png';
+$s-05-price: (100px, 223px, -100px, -223px, 12px, 18px, 269px, 253px, '../i/sprite.png', 's-05.price', );
+$s-06-our-works-name: 's-06.our-works';
+$s-06-our-works-x: 123px;
+$s-06-our-works-y: 174px;
+$s-06-our-works-offset-x: -123px;
+$s-06-our-works-offset-y: -174px;
+$s-06-our-works-width: 22px;
+$s-06-our-works-height: 20px;
+$s-06-our-works-total-width: 269px;
+$s-06-our-works-total-height: 253px;
+$s-06-our-works-image: '../i/sprite.png';
+$s-06-our-works: (123px, 174px, -123px, -174px, 22px, 20px, 269px, 253px, '../i/sprite.png', 's-06.our-works', );
+$s-07-partners-name: 's-07.partners';
+$s-07-partners-x: 246px;
+$s-07-partners-y: 174px;
+$s-07-partners-offset-x: -246px;
+$s-07-partners-offset-y: -174px;
+$s-07-partners-width: 21px;
+$s-07-partners-height: 17px;
+$s-07-partners-total-width: 269px;
+$s-07-partners-total-height: 253px;
+$s-07-partners-image: '../i/sprite.png';
+$s-07-partners: (246px, 174px, -246px, -174px, 21px, 17px, 269px, 253px, '../i/sprite.png', 's-07.partners', );
+$s-08-contacts-name: 's-08.contacts';
+$s-08-contacts-x: 65px;
+$s-08-contacts-y: 223px;
+$s-08-contacts-offset-x: -65px;
+$s-08-contacts-offset-y: -223px;
+$s-08-contacts-width: 15px;
+$s-08-contacts-height: 25px;
+$s-08-contacts-total-width: 269px;
+$s-08-contacts-total-height: 253px;
+$s-08-contacts-image: '../i/sprite.png';
+$s-08-contacts: (65px, 223px, -65px, -223px, 15px, 25px, 269px, 253px, '../i/sprite.png', 's-08.contacts', );
+$s-09-auto-body-name: 's-09.auto-body';
+$s-09-auto-body-x: 0px;
+$s-09-auto-body-y: 0px;
+$s-09-auto-body-offset-x: 0px;
+$s-09-auto-body-offset-y: 0px;
+$s-09-auto-body-width: 90px;
+$s-09-auto-body-height: 61px;
+$s-09-auto-body-total-width: 269px;
+$s-09-auto-body-total-height: 253px;
+$s-09-auto-body-image: '../i/sprite.png';
+$s-09-auto-body: (0px, 0px, 0px, 0px, 90px, 61px, 269px, 253px, '../i/sprite.png', 's-09.auto-body', );
+$s-10-mechanic-work-name: 's-10.mechanic-work';
+$s-10-mechanic-work-x: 0px;
+$s-10-mechanic-work-y: 81px;
+$s-10-mechanic-work-offset-x: 0px;
+$s-10-mechanic-work-offset-y: -81px;
+$s-10-mechanic-work-width: 73px;
+$s-10-mechanic-work-height: 73px;
+$s-10-mechanic-work-total-width: 269px;
+$s-10-mechanic-work-total-height: 253px;
+$s-10-mechanic-work-image: '../i/sprite.png';
+$s-10-mechanic-work: (0px, 81px, 0px, -81px, 73px, 73px, 269px, 253px, '../i/sprite.png', 's-10.mechanic-work', );
+$s-11-express-service-name: 's-11.express-service';
+$s-11-express-service-x: 0px;
+$s-11-express-service-y: 174px;
+$s-11-express-service-offset-x: 0px;
+$s-11-express-service-offset-y: -174px;
+$s-11-express-service-width: 103px;
+$s-11-express-service-height: 29px;
+$s-11-express-service-total-width: 269px;
+$s-11-express-service-total-height: 253px;
+$s-11-express-service-image: '../i/sprite.png';
+$s-11-express-service: (0px, 174px, 0px, -174px, 103px, 29px, 269px, 253px, '../i/sprite.png', 's-11.express-service', );
+$s-12-diagnostics-name: 's-12.diagnostics';
+$s-12-diagnostics-x: 110px;
+$s-12-diagnostics-y: 71px;
+$s-12-diagnostics-offset-x: -110px;
+$s-12-diagnostics-offset-y: -71px;
+$s-12-diagnostics-width: 65px;
+$s-12-diagnostics-height: 58px;
+$s-12-diagnostics-total-width: 269px;
+$s-12-diagnostics-total-height: 253px;
+$s-12-diagnostics-image: '../i/sprite.png';
+$s-12-diagnostics: (110px, 71px, -110px, -71px, 65px, 58px, 269px, 253px, '../i/sprite.png', 's-12.diagnostics', );
+$s-13-locksmith-service-name: 's-13.locksmith-service';
+$s-13-locksmith-service-x: 209px;
+$s-13-locksmith-service-y: 0px;
+$s-13-locksmith-service-offset-x: -209px;
+$s-13-locksmith-service-offset-y: 0px;
+$s-13-locksmith-service-width: 60px;
+$s-13-locksmith-service-height: 62px;
+$s-13-locksmith-service-total-width: 269px;
+$s-13-locksmith-service-total-height: 253px;
+$s-13-locksmith-service-image: '../i/sprite.png';
+$s-13-locksmith-service: (209px, 0px, -209px, 0px, 60px, 62px, 269px, 253px, '../i/sprite.png', 's-13.locksmith-service', );
+$s-14-plactic-repair-name: 's-14.plactic-repair';
+$s-14-plactic-repair-x: 110px;
+$s-14-plactic-repair-y: 0px;
+$s-14-plactic-repair-offset-x: -110px;
+$s-14-plactic-repair-offset-y: 0px;
+$s-14-plactic-repair-width: 79px;
+$s-14-plactic-repair-height: 51px;
+$s-14-plactic-repair-total-width: 269px;
+$s-14-plactic-repair-total-height: 253px;
+$s-14-plactic-repair-image: '../i/sprite.png';
+$s-14-plactic-repair: (110px, 0px, -110px, 0px, 79px, 51px, 269px, 253px, '../i/sprite.png', 's-14.plactic-repair', );
+$s-15-arrow-down-name: 's-15.arrow-down';
+$s-15-arrow-down-x: 132px;
+$s-15-arrow-down-y: 223px;
+$s-15-arrow-down-offset-x: -132px;
+$s-15-arrow-down-offset-y: -223px;
+$s-15-arrow-down-width: 12px;
+$s-15-arrow-down-height: 8px;
+$s-15-arrow-down-total-width: 269px;
+$s-15-arrow-down-total-height: 253px;
+$s-15-arrow-down-image: '../i/sprite.png';
+$s-15-arrow-down: (132px, 223px, -132px, -223px, 12px, 8px, 269px, 253px, '../i/sprite.png', 's-15.arrow-down', );
+$s-16-arrow-down-red-name: 's-16.arrow-down-red';
+$s-16-arrow-down-red-x: 164px;
+$s-16-arrow-down-red-y: 223px;
+$s-16-arrow-down-red-offset-x: -164px;
+$s-16-arrow-down-red-offset-y: -223px;
+$s-16-arrow-down-red-width: 12px;
+$s-16-arrow-down-red-height: 8px;
+$s-16-arrow-down-red-total-width: 269px;
+$s-16-arrow-down-red-total-height: 253px;
+$s-16-arrow-down-red-image: '../i/sprite.png';
+$s-16-arrow-down-red: (164px, 223px, -164px, -223px, 12px, 8px, 269px, 253px, '../i/sprite.png', 's-16.arrow-down-red', );
+$spritesheet-width: 269px;
+$spritesheet-height: 253px;
+$spritesheet-image: '../i/sprite.png';
+$spritesheet-sprites: ($s-01-map, $s-02-photo, $s-03-about, $s-04-home, $s-05-price, $s-06-our-works, $s-07-partners, $s-08-contacts, $s-09-auto-body, $s-10-mechanic-work, $s-11-express-service, $s-12-diagnostics, $s-13-locksmith-service, $s-14-plactic-repair, $s-15-arrow-down, $s-16-arrow-down-red, );
+$spritesheet: (269px, 253px, '../i/sprite.png', $spritesheet-sprites, );
+
+// The provided mixins are intended to be used with the array-like variables
+//
+// .icon-home {
+//   @include sprite-width($icon-home);
+// }
+//
+// .icon-email {
+//   @include sprite($icon-email);
+// }
+//
+// Example usage in HTML:
+//
+// `display: block` sprite:
+// <div class="icon-home"></div>
+//
+// To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+//
+// // CSS
+// .icon {
+//   display: inline-block;
+// }
+//
+// // HTML
+// <i class="icon icon-home"></i>
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+// The `sprites` mixin generates identical output to the CSS template
+//   but can be overridden inside of SCSS
+//
+// @include sprites($spritesheet-sprites);
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}

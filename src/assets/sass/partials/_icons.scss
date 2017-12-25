@@ -1,0 +1,61 @@
+@import "sprite";
+
+.icon {
+  display: inline-block;
+}
+
+.icon-map {
+  @include sprite($s-01-map);
+}
+
+.icon-photo {
+  @include sprite($s-02-photo);
+}
+
+.icon-about {
+  @include sprite($s-03-about);
+}
+
+.icon-home {
+  @include sprite($s-04-home);
+}
+
+.icon-price {
+  @include sprite($s-05-price);
+}
+
+.icon-our-works {
+  @include sprite($s-06-our-works);
+}
+
+.icon-partners {
+  @include sprite($s-07-partners);
+}
+
+.icon-contacts {
+  @include sprite($s-08-contacts);
+}
+
+.icon-auto-body {
+  @include sprite($s-09-auto-body);
+}
+
+.icon-mechanic-work {
+  @include sprite($s-10-mechanic-work);
+}
+
+.icon-express-service {
+  @include sprite($s-11-express-service);
+}
+
+.icon-diagnostics {
+  @include sprite($s-12-diagnostics);
+}
+
+.icon-locksmith-service {
+  @include sprite($s-13-locksmith-service);
+}
+
+.icon-plastic-repair {
+  @include sprite($s-14-plactic-repair);
+}

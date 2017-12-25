@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "Bender-Bold";
+    src: url("BenderBold.eot");
+    src: url("BenderBold.eot?#iefix") format("embedded-opentype"),
+         url("BenderBold.woff2") format("woff2"),
+         url("BenderBold.woff") format("woff"),
+         url("BenderBold.ttf") format("ttf"),
+         url("BenderBold.svg#Bender-Bold") format("svg");
+    font-style: normal;
+    font-weight: 700;
+}

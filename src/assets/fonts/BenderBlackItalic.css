@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "Bender-BlackItalic";
+    src: url("BenderBlackItalic.eot");
+    src: url("BenderBlackItalic.eot?#iefix") format("embedded-opentype"),
+         url("BenderBlackItalic.woff2") format("woff2"),
+         url("BenderBlackItalic.woff") format("woff"),
+         url("BenderBlackItalic.ttf") format("ttf"),
+         url("BenderBlackItalic.svg#Bender-BlackItalic") format("svg");
+    font-style: italic;
+    font-weight: 900;
+}
