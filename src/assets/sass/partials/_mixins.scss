@@ -1,13 +1,13 @@
 
 /* fonts
 ====================================================*/
-@mixin opensans {
+/*@mixin opensans {
   font-family: "OpenSans", sans-serif;
-}
+}*/
 
-@mixin opensansbold {
+/*@mixin opensansbold {
   font-family: "OpenSansBold", sans-serif;
-}
+}*/
 
 @mixin roboto {
   font-family: "RobotoRegular", sans-serif;
@@ -17,13 +17,23 @@
   font-family: "RobotoBold", sans-serif;
 }
 
-@mixin robotocondensed {
+/*@mixin robotocondensed {
   font-family: "RobotoCondensed", sans-serif;
+}*/
+
+/*@mixin bebasregular {
+  font-family: "BebasRegular", sans-serif;
+}*/
+
+@mixin badscriptregular {
+  font-family: "BadScriptRegular", sans-serif;
 }
 
-@mixin bebasregular {
-  font-family: "BebasRegular", sans-serif;
+@mixin cleanvertisinglight {
+  font-family: "CleanvertisingLight", sans-serif;
 }
+
+/*mixins*/
 @mixin inline-block {
   display: inline-block;
   vertical-align: middle;

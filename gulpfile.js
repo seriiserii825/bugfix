@@ -14,6 +14,7 @@ let gulp = require("gulp"),
     watch = require("gulp-watch"),
     sourcemaps = require('gulp-sourcemaps'),
     svgSprite = require('gulp-svg-sprite'),
+    svgSprites = require("gulp-svg-sprites"),
     svgmin = require('gulp-svgmin'),
     svg2png   = require('gulp-svg2png'),
     cheerio = require('gulp-cheerio'),
@@ -204,7 +205,7 @@ gulp.task('fontgen', function(){
         .pipe(map(function(file, cb){
             fontfacegen({
                 source: file.path,
-                dest: './src/assets/fonts/'
+                dest: 'src/assets/fonts/'
             });
             cb(null, file);
         }));
@@ -287,11 +288,11 @@ gulp.task('svg', function () {
  ===============================*/
 gulp.task('sprites', function () {
     return gulp.src('src/assets/i/icons/svg/*.svg')
-        .pipe(svgSprite())
-        .pipe(gulp.dest("src/assets/")) // Write the sprite-sheet + CSS + Preview
+        .pipe(svgSprites())
+        .pipe(gulp.dest("src/assets/i/sprite-svg-img/")) // Write the sprite-sheet + CSS + Preview
         .pipe(filter("**/*.svg"))  // Filter out everything except the SVG file
         .pipe(svg2png())           // Create a PNG
-        .pipe(gulp.dest("src/assets/"));
+        .pipe(gulp.dest("src/assets/i/sprite-svg-img/"));
 });
 
 /* build
@@ -307,8 +308,7 @@ gulp.task('build', function(cb){
         "favicon:build",
         "js:build",
         "fonts:build",
-        "image:build",
-        "sprite"
+        "image:build"
         , cb);
 });
 
@@ -335,9 +335,6 @@ gulp.task("watch", function(){
     });
     watch([path.watch.fonts], function(event, cb){
         gulp.start("fonts:build");
-    });
-    watch(["src/assets/i/icons/**/*.*"], function(event, cb){
-        gulp.start("sprite");
     });
 });
 
